@@ -119,7 +119,7 @@ paths:
           - write:apiKey
           - read:apiKey
 
-  /DeleteDataGeo:
+  /deletedata:
     delete:
       tags:
         - data
@@ -238,10 +238,10 @@ components:
           example: Point
         name:
           type: string
-          example: sawqi
+          example: cobainya
         volume:
           type: string
-          example: 31
+          example: coba
 
     Data:
       type: object
